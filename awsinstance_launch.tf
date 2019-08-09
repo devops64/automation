@@ -56,3 +56,4 @@ resource "aws_lb" "test" {
    load_balancer_type = "application"
    subnets = ["${aws_subnet.my_subnet.id}"]
 }
+#############
